@@ -1,11 +1,11 @@
 .column {
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
 
 
 
     background-color: white;
-    border: 2px solid gray;
+    border: 1px solid gray;
 
 }
 
@@ -15,5 +15,42 @@
     display: flex;
 
 
+
+}
+/*
+.outer{
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+
+}
+
+.inner{
+
+
+    align-items: center;
+    display: flex;
+    flex-direction:column;
+}
+
+.row{
+
+
+
+}*/
+
+.cir_outer {
+
+    height: 35px;
+    width: 35px;
+
+    background-color: white;
+    border: 2px solid gray;
+    border-radius: 50%;
+}
+
+.parentDiv {
+    display: flex;
+    flex-direction: row;
 
 }
